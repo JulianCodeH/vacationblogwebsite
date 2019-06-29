@@ -1,0 +1,143 @@
+header {
+	background-color: darkblue;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	z-index: 1;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+footer {
+	position: absolute;
+	bottom: -300px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	background-color: darkgray;
+	z-index: 1;
+}
+
+
+/* Navigation */
+
+#nav {
+	position: fixed;
+	left: 1555px;
+	top: 13px;
+}
+
+#nav-home {
+	font-size: 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+#nav-places {
+	font-size: 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+#nav-about {
+	font-size: 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+#nav-contact {
+	font-size: 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+#nav-home:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#nav-places:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#nav-about:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#nav-contact:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#header-title-text {
+	font-size: 27px;
+	position: fixed;
+	left: 50px;
+	top: 10px;
+	color: lightgray;
+	text-decoration: none;
+}
+
+#header-title-text:hover {
+	color: white;
+}
+
+#header-image {
+	height: 30px;
+	width: 30px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
+
+/* Home */
+
+#frontpage-background {
+	position: fixed;
+	height: 887px;
+	width: 1920px;
+	top: 50px;
+	left: 0px;
+	z-index: -1;
+}
+
+#title-home {
+	position: relative;
+	font-size: 50px;
+	top: 200px;
+	color: #524f4f;
+	z-index: 0;
+}
+
+#text-home {
+	font-size: 25px;
+	color: white;
+	position: relative;
+	top: 300px;
+	z-index: 0;
+}
+
+
+/* Updates */
+
+#updates {
+
+}
+
+#title-updates {
+	position: relative;
+	top: 700px;
+	left: 100px;
+}
+
+#title-updates {
+
+}
