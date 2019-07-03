@@ -1,0 +1,60 @@
+@font-face {
+font-family: "Jaapokki-Regular";
+src: url(../fonts/Jaapokki-Regular.otf);
+}
+
+header {
+	background-color: darkblue;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	z-index: 1;
+}
+
+footer {
+	position: absolute;
+	bottom: -800px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	background-color: darkgray;
+	z-index: 1;
+}
+
+
+/* Header */
+
+#header-title-text {
+	font-size: 27px;
+	position: fixed;
+	left: 50px;
+	top: 10px;
+	color: lightgray;
+	text-decoration: none;
+}
+
+#header-title-text:hover {
+	color: white;
+}
+
+#header-image {
+	height: 30px;
+	width: 30px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
+
+/* Background */
+
+#frontpage-background {
+	position: fixed;
+	height: 887px;
+	width: 1920px;
+	top: 50px;
+	left: 0px;
+	z-index: -1;
+}

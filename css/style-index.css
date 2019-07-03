@@ -80,6 +80,9 @@ footer {
 	color: white;
 }
 
+
+/* Header */
+
 #header-title-text {
 	font-size: 27px;
 	position: fixed;
@@ -102,7 +105,7 @@ footer {
 }
 
 
-/* Home */
+/* Background */
 
 #frontpage-background {
 	position: fixed;
@@ -112,6 +115,9 @@ footer {
 	left: 0px;
 	z-index: -1;
 }
+
+
+/* Home */
 
 #title-home {
 	position: relative;
