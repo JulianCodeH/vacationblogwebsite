@@ -1,3 +1,8 @@
+@font-face {
+font-family: "Jaapokki-Regular";
+src: url(../fonts/Jaapokki-Regular.otf);
+}
+
 header {
 	background-color: darkblue;
 	position: fixed;
@@ -10,12 +15,11 @@ header {
 
 body {
 	overflow-x: hidden;
-	overflow-y: scroll;
 }
 
 footer {
 	position: absolute;
-	bottom: -300px;
+	bottom: -800px;
 	left: 0px;
 	right: 0px;
 	height: 50px;
@@ -113,31 +117,53 @@ footer {
 	position: relative;
 	font-size: 50px;
 	top: 200px;
-	color: #524f4f;
+	color: #003b66;
 	z-index: 0;
+	font-family: "Jaapokki-Regular";
 }
 
 #text-home {
-	font-size: 25px;
-	color: white;
+	font-size: 30px;
+	color: #00bbff;
 	position: relative;
-	top: 300px;
+	top: 250px;
 	z-index: 0;
+	font-family: "Jaapokki-Regular";
 }
 
 
 /* Updates */
 
 #updates {
-
+	position: absolute;
+	height: 400px;
 }
 
-#title-updates {
-	position: relative;
+#title-figure {
+	position: absolute;
+	width: 27px;
+	height: 17px;
 	top: 700px;
 	left: 100px;
+	color: #256ad9;
 }
 
 #title-updates {
+	position: absolute;
+	left: 100px;
+	top: 690px;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #256ad9;
+}
 
+#updates-newyork-image-clickable {
+	height: 200px;
+	width: 300px;
+	position: relative;
+	top: 800px;
+	left: 150px;
+	border: groove;
+	border-width: 5px;
+	border-color: black;
 }
